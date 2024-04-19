@@ -6,6 +6,13 @@
     background: #F5F7FA;
 
 }
+.heroContent > h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #4D4D4D;
+
+
+}
 .content{
     display: flex;
     flex-direction: column;
@@ -13,5 +20,8 @@
 }
 @media screen and (max-width: 760px) {
     .heroimg{display:none}
+    .heroContent > h1{
+        font-size: 30px;
+    }
 
 }
