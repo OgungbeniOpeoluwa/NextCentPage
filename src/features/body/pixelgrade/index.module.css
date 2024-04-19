@@ -1,0 +1,11 @@
+.mainCont {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+/*.innerCont{*/
+/*    display: inline-block;*/
+/*    margin-left:50px;*/
+/*    width:300px*/
+/*}*/
