@@ -27,5 +27,8 @@
     .achievement{
         grid-template-columns: 10fr;
     }
+    .mainCont{
+        gap: 60px;
+    }
 
 }
