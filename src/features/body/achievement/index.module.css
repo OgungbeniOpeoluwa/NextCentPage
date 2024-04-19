@@ -1,0 +1,31 @@
+.achievement{
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+}
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.achievement > div{
+    display: flex;
+}
+.achievement>div>img{
+    width: 32px;
+    height:36px
+}
+.achievement > div>p{
+    font-size: 10px;
+    width:191px;
+    height:60px;
+    font-weight: 600;
+}
+.achievement>div>p>span{
+    font-size: 9px;
+}
+@media screen and (max-width: 760px) {
+    .achievement{
+        grid-template-columns: 10fr;
+    }
+
+}

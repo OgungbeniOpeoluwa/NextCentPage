@@ -1,0 +1,17 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    background: #F5F7FA;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+@media screen and (max-width: 760px) {
+    .heroimg{display:none}
+
+}

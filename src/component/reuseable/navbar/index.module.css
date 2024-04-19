@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #F5F7FA;
+
+}
+.header>div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+
+ }
+@media screen and (max-width: 760px) {
+    .header{display:none}
+
+}
+

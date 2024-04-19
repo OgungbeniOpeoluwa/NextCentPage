@@ -1,0 +1,35 @@
+.innercont{
+    text-align: center;
+    color:#4D4D4D;
+
+}
+
+.mapData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mapImage{
+    width:65px;
+    height:56px;
+    margin-Left:auto;
+    margin-Right:auto;
+}
+.innerMain{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: space-around;
+    /*padding: 24px 32px 24px 32px;*/
+    /*width: 250px;*/
+}
+@media screen and (max-width: 760px) {
+    .mapData{
+        flex-direction: column;
+    }
+    .mapData > h2{
+        font-size: 25px;
+
+    }
+
+}

@@ -1,0 +1,14 @@
+.mainCont{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media screen and (max-width: 760px) {
+    /*.logo{*/
+    /*    flex-direction: column;*/
+    /*}*/
+
+}
